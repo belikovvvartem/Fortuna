@@ -1,6 +1,7 @@
 const canvas = document.getElementById('wheel');
 const ctx = canvas.getContext('2d');
 const spinButton = document.getElementById('spin');
+const spinButtonSpin = document.getElementById('spin-button');
 const namesInput = document.getElementById('names');
 const winnerDisplay = document.getElementById('winner');
 
@@ -99,6 +100,7 @@ function spinAnimation() {
 }
 
 namesInput.addEventListener('input', updateSegments);
+spinButtonSpin.addEventListener('click', spin);
 spinButton.addEventListener('click', spin);
 
 arcSize = (2 * Math.PI) / segments.length;
