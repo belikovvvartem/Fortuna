@@ -14,7 +14,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #6e7f73, #8a9e9d); /* Фон в стилі Glassmorphism */
+    background: linear-gradient(135deg, #6e7f73, #8a9e9d); 
     display: flex;
     justify-content: center;
     align-items: center;
