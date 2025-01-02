@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Колесо Фортуни</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Колесо Фортуни</h1>
+
+    <div class="enter-data">
+      <textarea id="names" placeholder="Введіть імена учасників, по одному в кожному рядку" rows="5"></textarea>
+    
+    </div>
+    <div class="winer-box">
+    <div id="winner"></div>
+    </div>
+    <div class="circle">
+    <img src="./indicator.png" alt="" class="indicator">
+    <button id="spin">крутити<canvas id="wheel" width="400" height="400"></canvas></button>
+    </div>
+
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
